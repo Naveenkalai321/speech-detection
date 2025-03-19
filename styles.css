@@ -1,0 +1,53 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Main container */
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Speech button */
+#start-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#start-btn img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+#start-btn img:hover {
+    transform: scale(1.1);
+}
+
+/* Speech output */
+.output {
+    background: white;
+    color: black;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    min-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
